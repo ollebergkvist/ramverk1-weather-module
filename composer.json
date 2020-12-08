@@ -1,0 +1,34 @@
+{
+    "name" : "olbe19/weather",
+    "type": "framework",
+    "description": "Anax weather module.",
+    "keywords": ["anax", "framework", "module", "weather"],
+    "homepage": "https://github.com/ollebergkvist/ramverk1-weather-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Olle Bergkvist",
+            "email": "hello@ollebergkvist.com",
+            "homepage": "https://www.ollebergkvist.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/ollebergkvist/ramverk1-weather-module/issues"
+    },
+    "minimum-stability": "beta",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {"Anax\\": "src/", "Olbe19\\": "src/"}
+    },
+    "require": {
+        "php": ">=7.4",
+        "anax/commons": "^2.0.14"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7",
+        "phpmetrics/phpmetrics": "^2",
+        "anax/anax-ramverk1-me": "^1.0.0",
+        "anax/anax": "^2.0.17"
+    }
+}
